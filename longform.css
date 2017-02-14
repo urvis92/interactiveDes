@@ -7,26 +7,35 @@ br {
     }
 h1{
   padding:30px;
-  padding-left: 40px;
+margin-left: 40px;
 }
 .text{
-
-line-height: 140%;
+  display:flex;
+  flex-direction: column;
+flex-wrap: wrap;
+line-height: 150%;
 width:60%;
-padding-left:200px;
+margin-left:200px;
 }
 .pullquote1{
   font-weight: bold;
   font-size: 24px;
   width:35%;
-  padding-left:150px;
+  margin-left:150px;
 }
 .pullquote2{
   font-weight: bold;
   text-align:center;
   font-size:28px;
   width:70%;
-  padding-left:140px;
+  margin-left:140px;
+}
+.pullquote3{
+  font-weight: bold;
+  text-align:center;
+  font-size:28px;
+  width:70%;
+  margin-left:140px;
 }
 .image{
   width:300px;
@@ -40,30 +49,38 @@ margin-bottom:20px;
 @media only screen and (max-width: 750px) {
 
   .text {
-        padding-left:80px;
+        margin-left:80px;
         width:70%;
     }
     .pullquote1{
       width:70%;
-      padding-left:60px;
+      margin-left:40px;
 }
 .pullquote2{
   width:75%;
-  padding-left:60px;
+  margin-left:40px;
+}
+pullquote3{
+  width:75%;
+  margin-left:40px;
 }
 }
 @media only screen and (max-width: 450px) {
 
   .text {
-        padding-left:40px;
+        margin-left:40px;
         width:95%;
 }
 .pullquote1{
   width:95%;
-  padding-left:40px;
+  margin-left:30px;
 }
 .pullquote2{
   width:95%;
-  padding-left:40px;
+  margin-left:30px;
+}
+.pullquote3{
+  width:95%;
+  margin-left:30px;
 }
 }
